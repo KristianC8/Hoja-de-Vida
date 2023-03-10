@@ -1,0 +1,44 @@
+:root {
+    --font-size-normal: 1.1rem;
+    --font-size-titles: 1.2rem;
+    --font-size-name: 1.8rem;
+}
+
+.main-container {
+    width: 95vw;
+    height: calc((95vw*28)/22);
+}
+
+.contact-info h2 {
+    margin: 0.8rem 0.8rem;
+}
+
+.list {
+    width: 100%;
+    padding-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-size-normal);
+}
+
+.list div {
+    margin: 0.3rem 0;
+}
+
+.list div img {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.3rem;
+}
+
+.titles-e {
+    height: 2.8rem;
+    width: 65%;
+    padding-right: 3rem;
+}
+
+.titles-f {
+    height: 2.8rem;
+    width: 80%;
+    padding-right: 1.5rem;
+}

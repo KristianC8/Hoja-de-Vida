@@ -1,133 +1,30 @@
 :root {
-    --color-clear: #ececec;
-    --dark-titles: black;
-    
     --font-size-normal: 2rem;
     --font-size-titles: 2.5rem;
     --font-size-name: 4rem;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    background-image: url("https://i.postimg.cc/VvswbdND/Blue-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.main-container {
-    width: 80vw;
-    height: calc((80vw*28)/22);
-    /* min-width: 109rem;
-    min-height: 139rem; */
-    margin: 4.5rem auto;
-    background-color: var(--color-clear);
-    border: solid 1px var(--color-clear);
-    /* box-shadow: 0px 0px 35px -10px #303436; */
-}
-
-.main-header {
-    display: flex;
-    height: 28%;
-    width: 100%;
-    background-color: #3c4143;
-    clip-path: polygon(100% 0, 100% 87.5%, 30% 100%, 0 100%, 0 0);
-}
-
-.foto-wrap {
-    filter: drop-shadow(5px 5px 3px #000);
-    ;
-    width: 30%;
-    height: 100%;
-}
-
-.foto {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    width: 100%;
-    height: 100%;
-    background-color: #8a8d8e;
-    clip-path: polygon(0 0, 100% 0, 100% 87.5%, 0 99%);
-}
-
-.foto-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 87.5%;
-}
-
-.foto img {
-    height: 70%;
-    width: 74%;
-    border-radius: 50%;
-    border: solid 1px black;
-    background-color: #8a8d8e;
-}
-
-.nombre {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 100%;
-    color: var(--color-clear);
+.nombre { 
     padding: 10rem 4rem 0 4rem;
 }
 
-.nombre h1 {
-    font-size: var(--font-size-name)
-}
-
 .nombre p {
-    font-size: var(--font-size-normal);
     margin: 6rem 0 0 0;
-    /* padding: 0 4rem 0 0; */
-    text-align: justify;
-}
-
-.main-info {
-    display: flex;
-    width: 100%;
-    height: 72%;
 }
 
 .contact-info {
-    width: 30%;
-    height: 100%;
-    background-color: #181a1b;
-    color: var(--color-clear);
     padding: 2rem 1rem;
 }
 
 .contact-info h2 {
-    font-size: var(--font-size-titles);
     margin: 0 1rem;
 }
 
 .list {
-    width: 100%;
     padding: 1.8rem;
-    display: flex;
-    flex-direction: column;
-    font-size: var(--font-size-normal);
 }
 
 .list div {
-    margin: 0.5rem 0;
-}
-
-.list p {
     margin: 0.5rem 0;
 }
 
@@ -140,106 +37,33 @@ body {
     width: 1.8rem;
 }
 
-.education-experience {
-    width: 70%;
-    height: 100%;
-
-}
-
 .experience {
-    width: 100%;
     height: 50%;
-    padding: 10rem 4rem 0 6rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.exp {
-    width: 100%;
-    font-size: var(--font-size-normal);
 }
 
 .titles-e {
-    position: absolute;
     top: 4rem;
     right: 2rem;
     height: 5rem;
-    width: 60%;
     padding-right: 5rem;
-    background-color: var(--dark-titles);
-    color: var(--color-clear);
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    clip-path: polygon(0% 0%, 93.5% 0%, 100% 50%, 93.5% 100%, 0% 100%);
-}
-
-.titles-e h2 {
-    font-size: var(--font-size-titles);
-}
-
-.titles-e img {
-    font-size: var(--font-size-titles);
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
-}
-
-.education {
-    display: flex;
-    width: 100%;
-    height: 30%;
 }
 
 .academy {
-    width: 50%;
-    height: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     padding: 10rem 0 0 2rem;
 }
 
 .complementary {
-    width: 50%;
-    height: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     padding: 10rem 0 0 3rem;
 }
 
 .titles-f {
-    position: absolute;
-    top: 2rem;
     right: 2rem;
     height: 5rem;
-    width: 80%;
     padding-right: 5rem;
-    background-color: var(--dark-titles);
-    color: var(--color-clear);
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
-}
-
-.titles-f h2 {
-    font-size: var(--font-size-titles);
 }
 
 .titles-f img {
-    font-size: var(--font-size-titles);
     height: 3rem;
     width: 3rem;
     margin-right: 2rem;
-}
-
-.edu {
-    font-size: var(--font-size-normal);
-    width: 100%;
 }

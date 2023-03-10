@@ -1,0 +1,71 @@
+:root {  
+    --font-size-normal: 1.7rem;
+    --font-size-titles: 1.8rem;
+    --font-size-name: 3rem;
+}
+
+.main-container {
+    width: 80vw;
+    height: calc((80vw*28)/22);
+}
+
+.nombre {
+    padding: 5rem 3rem 0 3rem;
+}
+
+.nombre p {
+    margin: 2.4rem 0 0 0;
+}
+
+.contact-info h2 {
+    margin: 1rem 1.5rem;
+}
+
+.list {
+    padding: 1rem 0.5rem;
+}
+
+.list div img {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.experience {
+    height: 55%;
+    padding: 10rem 4rem 0 6rem;
+}
+
+.titles-e {
+    top: 2rem;
+    right: 3rem;
+    height: 4rem;
+    width: 60%;
+    padding-right: 4rem;
+}
+
+
+.titles-e img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.education {
+    height: 30%;
+}
+
+.complementary, .academy {
+    padding: 12rem 0 0 2rem;
+}
+
+.titles-f {
+    top: 2rem;
+    right: 3rem;
+    height: 4rem;
+}
+
+
+.titles-f img {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 0.5rem;
+}

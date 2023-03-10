@@ -1,0 +1,32 @@
+:root {   
+    --font-size-normal: 1.5rem;
+    --font-size-titles: 1.6rem;
+    --font-size-name: 2.6rem;
+}
+
+.main-container {
+    width: 90vw;
+    height: calc((90vw*28)/22);
+}
+
+.titles-f {
+    padding-right: 2rem;
+}
+
+.list div img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.3rem;
+}
+
+.titles-e img {
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 2rem;
+}
+
+.titles-f img {
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 0.5rem;
+}
